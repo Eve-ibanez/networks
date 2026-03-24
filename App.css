@@ -1,0 +1,46 @@
+* {
+  background-color: rgb(6, 9, 39);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: url(./img/Desktop-dark-space-wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.div-container {
+  position: relative;
+  width: 90vw;
+  height: 50vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.div-container_networks {
+  width: 35vw;
+  min-width: 270px;
+  padding: 20px;
+  background-color: #272727;
+  border-radius: 20px;
+  box-sizing: border-box;
+  max-width: 500px;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-image: url(./img/desktop-wallpaper-fondos-de-pantalla-abstractos-para-celular-neon-water.jpg);
+    background-size: calc(720px * 1280px);
+  }
+
+  .div-container {
+    bottom: 18vh;
+  }
+}
